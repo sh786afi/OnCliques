@@ -1,0 +1,13 @@
+.Logo {
+  background-color: #35424a;
+  color: #ffffff;
+  padding: 8px;
+  height: 100%;
+  box-sizing: border-box;
+  border-bottom: #ed491d 3px solid;
+  border-radius: 10px;
+}
+.highlight {
+  color: #e8491d;
+  font-weight: bold;
+}
