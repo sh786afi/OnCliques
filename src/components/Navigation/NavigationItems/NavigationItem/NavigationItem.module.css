@@ -1,10 +1,14 @@
 .NavigationItem {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  margin: 10px 0;
+  padding: 20px;
 }
 .NavigationItem a {
   color: #ffffff;
   text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+}
+
+.NavigationItem a:hover {
+  color: #ed491d;
 }

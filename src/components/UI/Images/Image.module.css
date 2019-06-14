@@ -1,0 +1,9 @@
+.SlideImage1 {
+  text-align: center;
+  position: relative;
+}
+.SlideImage1 img {
+  width: 80%;
+  box-sizing: border-box;
+  cursor: pointer;
+}

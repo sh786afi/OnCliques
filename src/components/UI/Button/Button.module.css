@@ -19,11 +19,15 @@
   cursor: not-allowed;
 }
 .Login {
-  color: white;
   border: #ed491d 1px solid;
   border-radius: 30px;
   letter-spacing: 1px;
   width: 10%;
+}
+.Login:hover {
+  color: #ed491d;
+  border: #ed491d 2px solid;
+  font-size: 18px;
 }
 
 .Success {

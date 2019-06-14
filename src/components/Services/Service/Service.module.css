@@ -1,0 +1,17 @@
+.Service {
+  width: 100px;
+  height: 75px;
+  margin-left: 50px;
+  cursor: pointer;
+  display: inline-block;
+  line-height: 20px;
+}
+.ServiceImg img {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+.ServiceText {
+  font-size: 14px;
+  text-align: center;
+}

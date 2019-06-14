@@ -1,3 +1,5 @@
-.NavigationItems {
+.NavigationItems ul {
   margin: 0;
+  display: inline-block;
+  list-style-type: none;
 }
