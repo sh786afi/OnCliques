@@ -1,0 +1,8 @@
+.ServiceCardImage img {
+  margin: 30px;
+  border-radius: 50%;
+}
+.ServiceCardImage h2 {
+  font-size: 18px;
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+.ServiceCard {
+  margin-top: 30px;
+  height: auto;
+  box-sizing: border-box;
+  display: flex;
+  text-align: center;
+  border: 1px solid rgba(240, 230, 230, 0.8);
+}
+.ServiceCard h2 {
+  text-align: center;
+  display: block;
+}
+.ServiceCardGrid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding: 10px;
+  height: auto;
+  width: 80%;
+}
