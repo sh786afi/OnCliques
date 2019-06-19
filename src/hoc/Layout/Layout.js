@@ -6,7 +6,6 @@ class Layout extends Component {
   render() {
     return (
       <Aux>
-        <Toolbar />
         <Image />
       </Aux>
     );

@@ -7,6 +7,11 @@ const navigationItems = () => {
     <div className={classes.NavigationItems}>
       <NavigationItem link="/orders">My Orders</NavigationItem>
       <NavigationItem link="/logout">Logout</NavigationItem>
+      <NavigationItem link="/cart">
+        <span>
+          <i className="fas fa-cart-plus" />
+        </span>
+      </NavigationItem>
     </div>
   );
 };
