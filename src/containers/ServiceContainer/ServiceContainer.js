@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { serviceData } from "../../serviceData";
 import Services from "../../components/Services/Services";
 import classes from "./ServiceContainer.module.css";
+import axios from "axios";
 
 class ServiceContainer extends Component {
   state = {
@@ -19,6 +20,7 @@ class ServiceContainer extends Component {
               imagePath={service.img}
               serviceName={service.serviceName}
               key={service.id}
+              link={service.link}
             />
           );
         })}

@@ -6,7 +6,11 @@ import classes from "./Services.module.css";
 const services = props => {
   return (
     <div className={classes.Services}>
-      <Service imagePath={props.imagePath} serviceName={props.serviceName} />
+      <Service
+        imagePath={props.imagePath}
+        serviceName={props.serviceName}
+        link={props.link}
+      />
     </div>
   );
 };

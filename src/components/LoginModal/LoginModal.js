@@ -9,11 +9,11 @@ const loginModal = props => {
       <Modal>
         <h1>Login/Signup</h1>
         <br />
-        <label for="uname">
+        <label htmlFor="uname">
           <b>Username</b>
         </label>
         <Input type="text" placeholder="Enter Username" />
-        <label for="psw">
+        <label htmlFor="psw">
           <b>Password</b>
         </label>
         <Input type="password" placeholder="Enter Password" />
